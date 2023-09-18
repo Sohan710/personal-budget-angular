@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;  // This ensures the children (h1, h2, img) are one below the other
+  justify-content: center;  // This will center the items vertically
+  align-items: center;  // This will center the items horizontally
+  height: 100vh;  // This ensures the container takes up the full viewport height
+
+  h1, h2 {
+      text-align: center;  // This centers the text within the h1 and h2 tags
+      margin: 10px 0;  // This gives a little spacing between the elements
+  }
+}
